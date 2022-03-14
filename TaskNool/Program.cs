@@ -20,7 +20,7 @@ while (i != 0)
     }
     else
     {
-        if (i != min1 && i < min2 && i!=0)
+        if (i != min1 && i < min2 && i != 0)
             min2 = i;
     }
     if (i > max1)
@@ -33,7 +33,7 @@ while (i != 0)
         if (i != max1 && i > max2)
             max2 = i;
     }
-    Console.WriteLine(" 1 минимум = "+min1 + " 2 мин = "+ min2+" 1 максимум = "+max1+" 2 макс = "+max2);
+    Console.WriteLine(" 1 минимум = " + min1+";" + " 2 минимум = " + min2 +";"+ " 1 максимум = " + max1+";" + " 2 максимум = " + max2);
 }
 
 
